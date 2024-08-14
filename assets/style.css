@@ -82,6 +82,9 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
   text-align: left;
   
 }
+.nav-opt p{
+    color: white;
+}
 .banner-con p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
@@ -213,6 +216,11 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
 
 
 }
+h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+}
 h4{
    margin-top: 0;
     color: #FFFFFF;
@@ -314,4 +322,64 @@ input, select {
     height: 48px;
     background-color: #999999;
     backdrop-filter: blur(4px);
+}
+.team-img img{
+    width: 326px;
+    height: 272px;
+  margin: 0 auto;
+  padding: 0;
+   border-radius: 18px;
+  
+}
+
+.team-img{
+    background-color: #9999993d;
+    border-radius: 18px;
+    padding: .8%;
+    width: 1060px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    justify-content: center;
+    margin: 2% 12%;
+}
+
+.team{
+    width: 671px;
+    text-align: center;
+    margin: 30px 380px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+   margin: 40px;
+   padding: 100px;
+   align-items: center;
+}
+
+.foot-logo{
+    width: 443px;
+
+}
+
+.foot{
+    width: 514px;
+    display: flex;
+    justify-content: space-between
+}
+
+.last{
+  
+    padding-bottom: 20px;
+}
+
+.foot-logo h3{
+    color: #E6533C;
+    font-size:3rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.foot-opt h3{
+    font-size:1.8rem;
 }
