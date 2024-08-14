@@ -383,3 +383,22 @@ input, select {
 .foot-opt h3{
     font-size:1.8rem;
 }
+.team-mem{
+    position: relative;
+}
+.name h4{
+    position: absolute;
+    top: 60%;
+    right:63% ;
+    color: #FFFFFF;
+  font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.name p{
+    position: absolute;
+    top: 75%;
+    right:78% ;
+
+}
+
