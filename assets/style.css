@@ -28,7 +28,7 @@
 }
 
 
-.logo{
+.log{
     color: #E6533C;
     font-size:2.1rem;
     font-weight: 800;
@@ -400,5 +400,22 @@ input, select {
     top: 75%;
     right:78% ;
 
+
+}
+
+.burger{
+    display: none;
+}
+
+/* Responsive */
+
+@media screen  and (max-width:576px){
+    .nav-opt{
+        display: none;
+    }
+    
+    .burger{
+        display: block;
+    }
 }
 
