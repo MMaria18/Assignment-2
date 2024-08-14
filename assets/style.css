@@ -24,6 +24,7 @@
     max-width: 1440px;
     margin: 0 auto;
     background-color: #111111;
+    position: relative;
 }
 
 
@@ -107,6 +108,12 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
     cursor: pointer;
     
 }
+.banner-img{
+    position: relative;
+}
+.banner-img>p{
+    color:  #EFEDE8;;
+}
 .btn{
     border: 2px solid #FFFFFF;
     border-radius: 42px;
@@ -117,4 +124,194 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
     background-color: black; 
     margin-left: 14px;
     cursor: pointer;
+}
+
+.box{
+    position: absolute;
+    background: rgba(145, 140, 140, 0.6);
+   backdrop-filter: blur(3px);
+    color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+
+
+}
+
+
+  .top-right{
+    top: 130px;
+   right: -81px;
+ 
+}
+
+.bottom-left{
+    bottom: 70px;
+  left: -100px;
+  display: flex;
+  align-items: center;
+}
+
+.dot{
+    border-radius: 50%;
+    background-color: #E6533C;
+    color: #E6533C;
+    height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.dot i {
+    color: white;
+    font-size: 16px;
+}
+
+/* Habit */
+
+.men{
+
+    margin:0 190px;
+}
+
+.men h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.habit{
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    gap: 14px;
+    width: 671px;
+    justify-content: center;
+    padding:0 186px;
+   
+}
+
+.habit-img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  
+}
+
+.habit-img>div>img{
+    border-radius: 50%;
+   box-shadow:3px 3px #9f9b9290 ,-3px -3px #9f9b9290,-3px 3px #9f9b9290,3px -3px #9f9b9290;
+   justify-content: center;
+   align-items: center;
+   margin: 33px;
+
+}
+
+.habit-img>div>p{
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    text-align: center;
+
+
+}
+h4{
+   margin-top: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.12rem;
+    text-align: center;
+}
+h3{
+    margin-top: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.12rem; 
+}
+
+.habit-img>div{
+    padding: 20px;
+}
+
+.run-img img{
+    width: 366px;
+    height: 312px;
+  
+   border-radius: 18px;
+}
+
+.run-full{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+.run{
+    width: 443px;
+    padding: 10px;
+}
+
+.runner{
+    width: 1060px;
+  background-color:rgba(34, 34, 34, 0.8) ;
+  
+    backdrop-filter: blur(6px);
+    border-radius: 18px;
+    padding:0 45px;
+ 
+}
+
+.margin{
+    margin: 30px 0;
+
+}
+
+.bmi{
+    text-align: center;
+    width: 671px;
+    margin: 15% 16%;
+   
+}
+
+table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  	border-collapse: collapse;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+th,td{
+    padding: 10px;
+
+}
+.bmi-chart{
+    padding: 20px;
+}
+.bmi-sec{
+    display: flex;
+    gap: 20px;
+    margin:30px ;
+    justify-content: space-around;
+    align-items: center;
+}
+#span{
+    
+    grid-column: 1 / span 2;
+}
+form {
+    display: grid;
+   grid-template-columns: repeat(2,1fr) ;
+    gap: 12px;
+}
+input, select {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 228px;
+    height: 48px;
+    background-color: #999999;
+    backdrop-filter: blur(4px);
 }
