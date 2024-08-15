@@ -434,6 +434,7 @@ input::placeholder,select::placeholder{
 
 .first h2,.second h2,.third h2{
     font-size: 1.5rem;
+    font-style: italic;
 }
 
 .icon{
