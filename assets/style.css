@@ -28,7 +28,7 @@
 }
 
 
-.log{
+.logo{
     color: #E6533C;
     font-size:2.1rem;
     font-weight: 800;
@@ -53,9 +53,10 @@
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    margin: 0 190px;
+    margin: 0 auto;
     align-items: center;
-    width: 1060px;
+    width: 100%;
+    max-width:1060px;
         }
 
         .home{
@@ -78,7 +79,7 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
     font-weight: 800;
     width: 520px;
   margin-bottom: 0;
-  line-height: 1.2;
+  line-height: 75px;
   text-align: left;
   
 }
@@ -86,6 +87,7 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
     color: white;
 }
 .banner-con p{
+    margin-top: 5%;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
@@ -228,7 +230,7 @@ h4{
     font-size: 1.12rem;
     text-align: center;
 }
-h3{
+  .bmi-sec h3,.bmi-chart h3,.foot-opt h3{
     margin-top: 0;
     color: #FFFFFF;
     font-weight: 600;
@@ -365,7 +367,8 @@ input, select {
 .foot{
     width: 514px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
 }
 
 .last{
@@ -388,16 +391,16 @@ input, select {
 }
 .name h4{
     position: absolute;
-    top: 60%;
-    right:63% ;
+    top: 68%;
+    right:65% ;
     color: #FFFFFF;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
     font-weight: bold;
 
 }
 .name p{
     position: absolute;
-    top: 75%;
+    top: 78%;
     right:78% ;
 
 
