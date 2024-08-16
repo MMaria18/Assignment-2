@@ -23,6 +23,7 @@
 .container{
     max-width: 1440px;
     margin: 0 auto;
+    width: 100%;
     background-color: #111111;
     position: relative;
 }
@@ -79,7 +80,7 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
     font-weight: 800;
     width: 520px;
   margin-bottom: 0;
-  line-height: 75px;
+  line-height: 79px;
   text-align: left;
   
 }
@@ -176,7 +177,7 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
 
 .men{
 
-    margin:0 190px;
+    margin:0 auto;
 }
 
 .men h2{
@@ -195,18 +196,31 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
 }
 
 .habit-img{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+ padding: 10px;
     justify-content: center;
-    align-items:center;
-  
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+
+   
 }
+
+.habit-img div{
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
 
 .habit-img>div>img{
     border-radius: 50%;
    box-shadow:3px 3px #9f9b9290 ,-3px -3px #9f9b9290,-3px 3px #9f9b9290,3px -3px #9f9b9290;
-   justify-content: center;
-   align-items: center;
-   margin: 33px;
+   
+   margin: 0;
 
 }
 
@@ -215,7 +229,7 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     text-align: center;
-
+  
 
 }
 h2{
@@ -458,10 +472,52 @@ input::placeholder,select::placeholder{
 @media screen  and (max-width:576px){
     .nav-opt{
         display: none;
+        margin: 0 90px;
     }
     
     .burger{
         display: block;
+        color: white;
+        font-size: 2rem;
     }
+    .banner{
+        width: 100%;
+        flex-direction: column;
+       
+    }
+   .nav-bar{
+        margin: 0 100px;
+    }
+
+    .bg-banner{
+        margin: 0;
+        width: 100%;
+  
+        padding: 0;
+      
+
+      
+    }
+
+    .habit-img{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+        padding: 10px;
+       gap: 20px;
+      }
+
+      .habit-img div{
+        padding: 10px;
+        text-align: center;
+      }
+      .habit-img>div>img{
+        width: 100%;
+        height: auto;
+        display: grid;
+            }
+
+
+
+
 }
 
