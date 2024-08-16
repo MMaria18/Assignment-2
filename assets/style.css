@@ -198,8 +198,8 @@ background: linear-gradient(180deg,black 0%, rgba(35,35,35,1) 40% , black 100%);
 .habit-img{
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 10px;
- padding: 10px;
+
+    padding: 10px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -315,6 +315,9 @@ th,td{
     padding: 20px;
    
 }
+.whole-bmi{
+    background-color:rgba(34, 34, 34, 1) ;
+}
 
 .bmi-sec{
     display: flex;
@@ -323,6 +326,8 @@ th,td{
     gap: 2rem;
     margin: 30px ;
     max-width: 1440px;
+    background-color:rgba(34, 34, 34, 1) ;
+  
    
   
 }
@@ -379,6 +384,7 @@ input::placeholder,select::placeholder{
    margin: 40px;
    padding: 100px;
    align-items: center;
+   background-color:rgba(34, 34, 34, 1) ;
 }
 
 .foot-logo{
@@ -473,12 +479,21 @@ input::placeholder,select::placeholder{
     .nav-opt{
         display: none;
         margin: 0 90px;
+        position: absolute;
+        background-color: #999999;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     
     .burger{
         display: block;
         color: white;
         font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .burger:hover .nav-opt{
+        display: flex;
+        flex-direction: column;
     }
     .banner{
         width: 100%;
@@ -501,23 +516,88 @@ input::placeholder,select::placeholder{
 
     .habit-img{
      display: grid;
-     grid-template-columns: 1fr 1fr;
+     grid-template-columns: repeat(1,1fr);
         padding: 10px;
        gap: 20px;
+       margin: 40px;
+
+
       }
 
       .habit-img div{
         padding: 10px;
         text-align: center;
       }
-      .habit-img>div>img{
-        width: 100%;
-        height: auto;
-        display: grid;
-            }
+      .habit{
+        margin-top: 100px;
+       width: 60%;
+       text-align: start;
+        gap: 14px;
+        justify-content: start;
+      
+        
+       
+      }
 
+.run-full{
+    flex-direction: column;
+}
+.runner{
+    width: 576px;
+}
 
+.bmi-sec{
+    flex-direction: column;
+    width: 576px;
+    text-align: center;
+   
+}
+.team{
+    width: 500px;
+    margin: 0 auto;
+}
 
+.team-img{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    width: 570px;
 
 }
 
+.team-img img{
+width: 550px;
+padding: 10px 10px;
+}
+
+
+.facility{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.first,.second,.third{
+    width: 100%;
+}
+
+
+.footer{
+flex-direction: column;
+margin: 0 auto;
+padding: 10px;
+justify-content: center;
+align-items: center;
+}
+.foot{
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+}
+
+.foot-logo {
+    width: 100%;
+    max-width: 100%; 
+    padding: 0 10px; 
+}
+
+
+}
